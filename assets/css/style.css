@@ -1,0 +1,147 @@
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+
+.logo{
+  float: right;
+}
+
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+#home{
+  background-image: url(../img/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#home .container{
+  color: white;
+  padding: 70px;
+}
+
+.text-home{
+  font-size: 53px;
+}
+
+.btn-home{
+  background: #2ECC71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+#work{
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #161615;
+  padding: 70px 7px;
+}
+
+.text-work{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.text-specific-work{
+  color: #575757;
+  padding: 0px 210px;
+}
+
+.content-box-work{
+  width: 93.5%;
+  margin-left: 50px;
+}
+.box-work{
+  display: inline-block;
+  width: 32.3%;
+  margin-top: 63px;
+}
+
+#work .container{
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: 0px;
+  padding: 0px 0px;
+}
+
+.box-work img{
+  cursor:pointer;
+}
+
+.modal{
+  z-index:3;
+  display:none;
+  padding-top:100px;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  background-color:#87C175;
+  background-color:rgba(135,193,117,0.9);
+}
+
+.modal-content{
+  margin:auto;
+  background-color:#87C175;
+  position:relative;
+  padding:0;
+  outline:0;
+  width: 100%;
+  height: 100%;
+}
+
+.animate-zoom{
+  transform:scale(0.10);
+}
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373B47;
+  color: white;
+  padding-top: 7px;
+}
+
+#img-modal{
+  width: 600px;
+}
