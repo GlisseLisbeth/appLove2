@@ -3,11 +3,15 @@ window.addEventListener('load',function(){
 });
 
 var img=document.querySelector('.content-box-work');
-
 img.addEventListener('click',function(event){
-  event.preventDefault();
-  console.log(event.target.src);
-  document.getElementById('img-modal').src = event.target.src;
-  document.getElementById('img-modal').style.border="10px solid white";
-  document.getElementById('modal').style.display = "block";
+    event.preventDefault();
+    if(event.target.tagName == "IMG"){
+      document.getElementById('img-modal').src = event.target.src;
+      document.getElementById('modal').style.display = "block";
+    }
+  });
+
+var close=document.getElementById('close');
+close.addEventListener('click', function(){
+  document.getElementById('modal').style.display = "none";
 });
